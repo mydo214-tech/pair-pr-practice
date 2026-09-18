@@ -7,9 +7,9 @@ def review_notice():
         number = int(user_input)
         # 짝수인지 홀수인지 확인한다.
         if number % 2 == 0:
-            print(f"{number}은(는) 짝입니다.")
+            print(f"{number}은(는) 짝수입니다.")
         else:
-            print(f"{number}은(는) 홀입니다.")
+            print(f"{number}은(는) 홀수입니다.")
     else:
         print("유효한 정수를 입력하세요.")
 
